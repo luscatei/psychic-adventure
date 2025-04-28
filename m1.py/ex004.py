@@ -1,0 +1,10 @@
+n = input("Insert something: ")
+
+print("The primitive type is ", type(n))
+print("Is only spaces? ", n.isspace())
+print("Is a number? ", n.isalnum())
+print("Is alpha? ", n.isalpha())
+print("Is numeric? ", n.isnumeric())
+print("Is lower? ", n.islower())
+print("Is upper? ", n.isupper())
+print("Is title? ", n.istitle())
